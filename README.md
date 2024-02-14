@@ -110,6 +110,19 @@ srun python main.py --net resnet18 \
 --lr 1e-3 --epochs 50 --other_args
 ```
 
+## Kubernetes concepts
+
+[KubeFlow](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) is likely the way to go
+
+### Resources
+- https://medium.com/bumble-tech/gpu-powered-kubernetes-clusters-7fc6505125c
+- https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+- https://www.nvidia.com/en-us/on-demand/session/gtcspring22-s42498/
+
+![Screenshot_5](https://github.com/FarisHijazi/distributed-GPUs/assets/47270244/6ff0e50e-ce14-4e0f-a72c-51167c681a4b)
+![Screenshot_6](https://github.com/FarisHijazi/distributed-GPUs/assets/47270244/58b61e24-69d5-49d9-8cde-a7b7068a3a36)
+
+
 ## Resources
 
 - https://github.com/statgen/SLURM-examples
